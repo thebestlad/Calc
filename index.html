@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+</head>
+<body>
+    <script src="script.js"></script>
+    <table border="1">
+        <tr>
+            <td colspan="4"><input type="text" disabled id="ip"></td>
+        </tr>
+        <tr>
+            <td><button class="dark" onclick="dis('**')">^</button></td>
+            <td><button class="dark" onclick="sqrt()"><i class="fas fa-square-root-alt fa-sm"></i></i></button></td>
+            <td><button class="dark"onclick="del()">del</button></td>
+            <td><button class="orange"onclick="dis('/')"><i class="fas fa-divide fa-sm"></i></button></td>
+        </tr>
+        <tr>
+            <td><button class="light"onclick="dis('7')">7</button></td>
+            <td><button class="light"onclick="dis('8')">8</button></td>
+            <td><button class="light"onclick="dis('9')">9</button></td>
+            <td><button class="orange"onclick="dis('*')">*</button></td>
+        </tr>
+        <tr>
+            <td><button class="light"onclick="dis('4')">4</button></td>
+            <td><button class="light"onclick="dis('5')">5</button></td>
+            <td><button class="light"onclick="dis('6')">6</button></td>
+            <td><button class="orange"onclick="dis('-')">-</button></td>
+        </tr>
+        <tr>
+            <td><button class="light"onclick="dis('1')">1</button></td>
+            <td><button class="light"onclick="dis('2')">2</button></td>
+            <td><button class="light"onclick="dis('3')">3</button></td>
+            <td><button class="orange"onclick="dis('+')">+</button></td>
+        </tr>
+        <tr>
+            <td><button class="light"onclick="dis('0')">0</button></td>
+            <td><button class="light"onclick="dis('.')">.</button></td>
+            <td><button class="light"onclick="clr('C')">C</button></td>
+            <td><button class="orange"onclick="solve('=')">=</button></td>
+        </tr>
+    </table>
+</body>
+</html>

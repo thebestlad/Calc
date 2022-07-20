@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+    background-color: #bdd4e7;
+    background-image: linear-gradient(315deg, #bdd4e7 0%, #8693ab 74%);
+    
+
+    
+}
+table{
+    background-color: #bdd4e7;
+    
+}
+.orange{
+    background-color: orange;
+}
+button{
+    width: 100%;
+    border: none;
+}
+.light{
+    background-color: lightgray;
+}
+.dark{
+    background-color: lightslategrey;
+}
+.orange:hover{
+    background-color: black;
+    color: orange;
+    cursor: pointer;
+}
+.dark:hover{
+    background-color: black;
+    color: lightslategrey;
+    cursor: pointer;
+}
+.light:hover{
+    color: lightgray;
+    background-color: black;
+    cursor: pointer;
+}
